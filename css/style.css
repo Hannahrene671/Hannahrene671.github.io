@@ -33,6 +33,7 @@ header {
 
 header h1 {
 	padding: 40px 60px;
+	color: white;
 }
 
 
@@ -57,6 +58,14 @@ main {
 
 section {
 	padding: 40px 60px;
+}
+
+section h2{
+	color:tomato;
+}
+
+aside h2{
+	color:tomato;
 }
 
 section ul, aside ul {
