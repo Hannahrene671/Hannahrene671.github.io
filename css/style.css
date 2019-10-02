@@ -1,7 +1,9 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: url('../images/webpage.background.png');
 	color: #333;
+	font-family: 'Roboto Mono', monospace;
 }
+
 
 a {
 	text-decoration: none;
@@ -18,10 +20,14 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+	color: white;
 	min-height: 100px;
-	margin-top: 60px;
+	margin-top: 30px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.5em;
+	word-spacing: 2em;
+	font-size: 40px;
 }
 
 header h1 {
@@ -30,14 +36,14 @@ header h1 {
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: 0; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
-nav a:hover { color: white; }
+nav a { color: white; }
+nav a:hover { color: darkgreen; }
 
 
 /* Main styles */
@@ -65,8 +71,9 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: 0;
 	color: white;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
  }
  footer p { padding: 20px; }
