@@ -64,6 +64,7 @@
 			list-style-type: none;
 		}
 		nav li {
+			font-family: 'DM Serif Text', serif;
 			display: inline-block;
 			padding: 30px;
 			margin: auto;
