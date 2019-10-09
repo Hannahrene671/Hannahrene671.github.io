@@ -1,0 +1,111 @@
+
+/* Backgrounds */
+
+		.whitetail{
+			background-image: url('../images/pngs/whitetailpage.png');
+			background-size: fixed;
+			background-height: 1000px;
+			background-color: blanchedalmond;
+		}
+
+		.nads{
+			background-image: url('../images/pngs/aboutpage.png');
+			background-size: fixed;
+			background-height: 1000px;
+			background-color: blanchedalmond;
+		}
+
+		.mule{
+			background-image: url('../images/pngs/mulepage.png');
+			background-size: fixed;
+			background-height: 1000px;
+			background-color: blanchedalmond;
+		}
+
+		.moose{
+			background-image: url('../images/pngs/moosepage.png');
+			background-size: fixed;
+			background-height: 2000px;
+			background-color: blanchedalmond;
+		}
+
+		.elk{
+			background-image: url('../images/pngs/elkpage.png');
+			background-size: fixed;
+			background-height: 1000px;
+			background-color: blanchedalmond;
+		}
+
+		.blacktail{
+		 	background-image: url('../images/pngs/blacktailpage.png');
+		 	background-size: fixed;
+		 	background-height: 1000px;
+			background-color: blanchedalmond;
+		}
+
+
+/* Fonts */
+
+
+		.sans{
+			font-family: 'Overpass', sans-serif;
+			color: blanchedalmond;
+
+		}
+
+		.serif {
+			font-family: 'DM Serif Text', serif;
+			color: blanchedalmond;
+		}
+
+/* Nav Bar */
+
+		nav ul {
+			list-style-type: none;
+		}
+		nav li {
+			display: inline-block;
+			padding: 30px;
+			margin: auto;
+			
+
+		}
+
+		a{
+			text-decoration: none;
+			color: black;
+			
+		}
+
+		a:hover{
+			text-decoration: underline;
+			color: blanchedalmond;
+			
+		}
+
+		header img {
+			display: inline-block;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
