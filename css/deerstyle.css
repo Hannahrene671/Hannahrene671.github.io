@@ -49,44 +49,131 @@
 
 		.sans{
 			font-family: 'Overpass', sans-serif;
-			color: blanchedalmond;
+			color: white;
 
 		}
 
 		.serif {
 			font-family: 'DM Serif Text', serif;
-			color: blanchedalmond;
+			color: white;
 		}
 
 /* Nav Bar */
 
+		body{
+			width: 100%;
+		}
+
+		header{
+			background-color: white;
+			width: 100%;
+			padding: none;
+			height: 80px;
+			border: none;
+		}
+
+		nav{
+			background-color: white;
+			width: 100%;
+			padding: none;
+			height: 80px;
+		}
+
 		nav ul {
 			list-style-type: none;
+			 display: inline-block;
 		}
 		nav li {
 			font-family: 'DM Serif Text', serif;
 			display: inline-block;
-			padding: 30px;
+			padding: 15px;
 			margin: auto;
-			
-
-		}
+			}
 
 		a{
 			text-decoration: none;
-			color: black;
+			color: #D8860B;
+			display: inline-block;
+			margin: auto;
+			padding: auto;
 			
 		}
 
-		a:hover{
-			text-decoration: underline;
-			color: blanchedalmond;
-			
-		}
 
 		header img {
 			display: inline-block;
+
 		}
+
+
+		.dropdown {
+  			float: left;
+  			overflow: hidden;
+  			color: #D8860B;
+  			padding: 0px;
+		}
+
+
+
+		.dropdown .dropdownbutton {  
+		  border-radius: 15px;
+		  outline: none;
+		  display: inline-block;
+		  color: #D8860B;
+		}
+
+
+		.navbar a:hover, .dropdown:hover .dropdownbutton {
+		  background-color: blanchedalmond;
+		   border-radius: 15px;
+		}
+
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #D8860B;
+		  min-width: 160px;
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  float: none;
+		  color: #D8860B;
+		  padding: 5px 5px;
+		  text-decoration: none;
+		  display: block;
+		  text-align: left;
+		}
+
+		.dropdown-content a:hover {
+		  background-color: white;
+		  border-radius: 15px;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		  background-color: blanchedalmond;
+		   border-radius: 15px;
+		}
+
+		.navbar {
+		  overflow: hidden;
+		 
+		}
+
+		.navbar a {
+		  float: left;
+		  font-size: 16px;
+		  color: #D8860B; 
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+
+/* Body */
+
+
 
 
 
