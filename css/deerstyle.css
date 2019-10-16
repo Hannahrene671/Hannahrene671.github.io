@@ -62,32 +62,39 @@
 
 		body{
 			width: 100%;
+			margin:0;
 		}
 
 		header{
 			background-color: white;
+			opacity: .5;
+			margin:0;
 			width: 100%;
 			padding: none;
 			height: 80px;
-			border: none;
+			border:0;
 		}
 
 		nav{
-			background-color: white;
 			width: 100%;
+			opacity: 1;
 			padding: none;
 			height: 80px;
+			margin:0;
 		}
 
 		nav ul {
 			list-style-type: none;
 			 display: inline-block;
+			 padding:15px;
+			 margin:0;
 		}
+
 		nav li {
 			font-family: 'DM Serif Text', serif;
 			display: inline-block;
-			padding: 15px;
-			margin: auto;
+			padding: 14px;
+			margin: 0;
 			}
 
 		a{
@@ -96,7 +103,6 @@
 			display: inline-block;
 			margin: auto;
 			padding: auto;
-			
 		}
 
 
